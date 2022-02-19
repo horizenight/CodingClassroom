@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;700;800;900&display=swap");
+:root {
+  --orange: #f7803c;
+  --black: #262f34;
+  --head-white: rgb(255, 255, 255);
+  --text-white: rgb(209, 209, 209);
+}
+.coding {
+  background-color: #262f34;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 0 2%;
+}
+.coding .navbar {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.coding .navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+.coding .navbar ul li a {
+  padding: 1rem;
+  font-size: 1.5rem;
+  transition: 200ms;
+  color: white;
+  text-decoration: none;
+}
+.coding .navbar ul li a:hover {
+  color: var(--orange);
+  transition: 200ms;
+}
+.coding .navbar .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.coding .navbar .logo img {
+  width: 100px;
+  margin-right: 1rem;
+}
+.coding .coding-heading {
+  text-align: center;
+  font-size: 2rem;
+}
+.coding .coding-con {
+  display: flex;
+  height: 40vw;
+  margin: 1rem 0;
+  justify-content: space-between;
+}
+.coding .coding-con textarea {
+  background-color: transparent;
+  border: 2px solid gray;
+  border-radius: 10px;
+  resize: none;
+  padding: 0.5rem;
+  font-family: monospace;
+  font-size: 1.2rem;
+  color: white;
+}
+.coding .coding-con .coding-con-code textarea {
+  height: 100%;
+  width: 100%;
+}
+.coding .coding-con .coding-con-out textarea {
+  height: 48%;
+  width: 100%;
+}
+.coding .coding-con .coding-con-out {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.coding .coding-con .coding-con-code {
+  width: 80%;
+
+  justify-content: space-between;
+}
+.coding .coding-controls {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.coding-button {
+  border: 2px solid var(--orange);
+  border-radius: 15px;
+  padding: 0.5rem;
+  transition: 200ms;
+  background-color: transparent;
+  color: white;
+}
+.coding-button:hover {
+  font-weight: 700;
+  background-color: var(--orange);
+  transition: 200ms;
+}
+.coding .coding-controls .coding-select {
+  margin: auto;
+}
+.coding .coding-controls .coding-select select {
+  background-color: var(--orange);
+  border: 2px solid var(--orange);
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
