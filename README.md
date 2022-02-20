@@ -13,7 +13,7 @@ The problem with these platforms that users who enter the conversation late are 
 
 ---
 
-## 🍾 Installation throght command Line
+## 🍾 Installation using command Line
 
 
 ```
