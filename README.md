@@ -1,5 +1,6 @@
 # CodeClassroom Video-Editor-Classroom SPA application
 Link for the Application 🖐️ [here](https://www.codingclassroom.live/).
+YT video of working project 📹 [here](https://www.youtube.com/watch?v=_5j5SvJh5UE)
 
 
 The pandemic has been a challenge for all of us and since we didn’t get to meet our friends like the pre-covid days, we devised new ways of keeping contact with them. Being a coder, what’s better than having coding sessions with our friends/peers/random folks alongside chatting, talking and even sharing our screens to resolve each others' doubts, all on a single platform.
