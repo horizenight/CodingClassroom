@@ -127,7 +127,7 @@ const Home = () => {
           </div>
           <div className="neo-card-1">
             <a href="https://www.cockroachlabs.com/">
-              <img src="./images/cock-icon.svg"></img>
+              <img src="./images/cock-db.svg"></img>
               <h3>Cock-DB</h3>
             </a>
           </div>

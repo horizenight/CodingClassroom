@@ -31,6 +31,8 @@
     "react-draggable": "^4.4.4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
+    "sequelize": "^6.16.2",
+    "sequelize-cockroachdb": "^6.0.5",
     "twilio": "^3.48.1",
     "twilio-video": "^2.7.1"
   },
