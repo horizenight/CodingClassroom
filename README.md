@@ -1,4 +1,6 @@
 # CodeClassroom Video-Editor-Classroom SPA application
+Link for the Application 🖐️ [here](https://www.codingclassroom.live/).
+
 The pandemic has been a challenge for all of us and since we didn’t get to meet our friends like the pre-covid days, we devised new ways of keeping contact with them. Being a coder, what’s better than having coding sessions with our friends/peers/random folks alongside chatting, talking and even sharing our screens to resolve each others' doubts, all on a single platform.
 </br>
 
@@ -32,6 +34,25 @@ npm run start
 9. [SASS](https://sass-lang.com/) - Preporcessor for CSS for less compilation during Runtime.
 10. [Express.JS](https://www.expressjs.com/) - used for Server creation on [NODE>JS](https://nodejs.org/)
 11. [Godaddy](https://godaddy.com/) -  domain providing client
+
+## ⚙ What it does
+**CodeClassroom** is a web platform that allows multiple users to enter the call and even enables you to code with your friends or random folks while you all are in a meeting; allowing you to chat, talk and even share your screen with them.
+As you land on the website, you get an option to  join classroom or join the room direct or practice your coding skills on editor. 
+While in **code editor**
+on the left hand side, you get a bunch of random questions to practice on. While on the right side, there is an editor to write your code on. Here, you can select your preferred coding language from the dropdown list. Then after you have written your code, you can check if the provided input gives a desired output by clicking on the provided Run Compile button.But what if you have a doubt or want to crosscheck your answer with that of your mates or just simply want to chit chat while you code? Dont worry! In the top section, you have button to start a meet with your friends.
+While in **Classroom** 
+You first have to login through GoogleAuth and after that you in the classroom you get 
+the room cards so that your classes and rooms could be maintained.
+While in **meeting** 
+When the host starts the call/meeting, the platform will start to save the live transcript and it allows any users who enter the call late to be able to see the transcript of previous conversation
+
+## 💪 Challenges we ran into
+
+- The main challenge which we came into is implementing the feature of storing past transcript enabled for all users means if someone enters in between the meeting then they can see previous conversation through transcript.
+-Since we spent so much time implementing multiple APIs, we do not have enough time to host the platform online;
+-We faced an issue while setting up a custom route for the IDE api call  ;
+- How to make state synchronous in React;
+- Had difficulty in using Cockroach Db , So Had to Drop That;
 
 ## Contributors
 1. [Pranjal Goyal](https://github.com/Pranjal7852)
