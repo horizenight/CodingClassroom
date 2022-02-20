@@ -2,24 +2,6 @@
 Link for the Application 🖐️ [here](https://www.codingclassroom.live/).
 
 
-## Screenshot of Working Application
-1. ![image](https://user-images.githubusercontent.com/68412756/154853188-0fc00d5f-03b2-446e-821e-35e7a9ec56d1.png)
-
-
-3. ![image](https://user-images.githubusercontent.com/68412756/154853234-35af4ee9-1bf7-4c53-9b6e-5c4dcf9bc4b8.png)
-
-
-5. ![image](https://user-images.githubusercontent.com/68412756/154853627-84acabe4-cb86-4dd1-acde-528d345938c0.png)
-
-
-7. ![image](https://user-images.githubusercontent.com/68412756/154853596-054ddb25-8342-4304-8ac4-aa5e9b4b6c22.png)
-
-
-9. ![image](https://user-images.githubusercontent.com/68412756/154853641-74120aca-9aaf-4ead-93e4-6440292d7505.png)
-
-
-
-
 The pandemic has been a challenge for all of us and since we didn’t get to meet our friends like the pre-covid days, we devised new ways of keeping contact with them. Being a coder, what’s better than having coding sessions with our friends/peers/random folks alongside chatting, talking and even sharing our screens to resolve each others' doubts, all on a single platform.
 </br>
 
@@ -78,6 +60,23 @@ When the host starts the call/meeting, the platform will start to save the live 
 -We faced an issue while setting up a custom route for the IDE api call  ;
 - How to make state synchronous in React;
 - Had difficulty in using Cockroach Db , So Had to Drop That;
+
+
+## Screenshot of Working Application
+1. ![image](https://user-images.githubusercontent.com/68412756/154853188-0fc00d5f-03b2-446e-821e-35e7a9ec56d1.png)
+
+
+3. ![image](https://user-images.githubusercontent.com/68412756/154853234-35af4ee9-1bf7-4c53-9b6e-5c4dcf9bc4b8.png)
+
+
+5. ![image](https://user-images.githubusercontent.com/68412756/154853627-84acabe4-cb86-4dd1-acde-528d345938c0.png)
+
+
+7. ![image](https://user-images.githubusercontent.com/68412756/154853596-054ddb25-8342-4304-8ac4-aa5e9b4b6c22.png)
+
+
+9. ![image](https://user-images.githubusercontent.com/68412756/154853641-74120aca-9aaf-4ead-93e4-6440292d7505.png)
+
 
 ## Contributors
 1. [Pranjal Goyal](https://github.com/Pranjal7852)
