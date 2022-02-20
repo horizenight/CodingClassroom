@@ -209,19 +209,18 @@ const Home = () => {
         <div className="problem-card-con">
           <div className="problem-card-con-l">
             <div className="neo-card-1">
-              <h3>Pandamic </h3>
+              <h3>Pandamic Proof 🦠</h3>
               <p>
-                Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch
-                ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch ahdbc hahadbc aahdcb
-                a Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
+                No matter where you are never miss out on coding, with our
+                inbuild code editor and web RTC solution and Typescript saving
+                feature
               </p>
             </div>
             <div className="neo-card-1">
-              <h3>This is Sample</h3>
+              <h3>Lite Runtime 🎈</h3>
               <p>
-                Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch
-                ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch ahdbc hahadbc aahdcb
-                a Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
+                Get rid of multiple apps and platform beacuse we have merged for
+                you all the Spicy features of top giants into one.
               </p>
             </div>
           </div>

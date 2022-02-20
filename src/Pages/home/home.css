@@ -156,7 +156,8 @@
 }
 .home .neo-card-1 p {
   color: var(--text-white);
-  font-weight: 100;
+  font-weight: 300;
+  font-size: 1.1rem;
   margin: 0.5rem 0;
 }
 .home .neo-card-1 img {
