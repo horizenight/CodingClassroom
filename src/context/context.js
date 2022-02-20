@@ -21,6 +21,8 @@ export function ContextProvider({ children }) {
     auth.signInWithPopup(provider);
   };
 
+  const logout = () => auth.signOut();
+
   useEffect(() => {
     // users exist or not
     const unsubscribe = auth.onAuthStateChanged((authUser) => {
@@ -43,7 +45,7 @@ export function ContextProvider({ children }) {
     setCreateClassDialog,
     joinClassDialog,
     setJoinClassDialog,
-    login,
+    login,logout,
     loggedInMail,
     loggedInUser,
   };
