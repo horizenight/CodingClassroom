@@ -31,9 +31,10 @@ const Home = () => {
           <div className="header-desc">
             <p>
               {" "}
-              Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch
-              ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
-              Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
+              A web application that allows any users who enter the call late to
+              be able to see and save the past transcript. Users will be able to
+              take their time and look at the transcript of previous
+              conversation.
             </p>
           </div>
         </div>
@@ -46,53 +47,52 @@ const Home = () => {
         <h1 className="home-heading-hollow"> &lt; Features /&gt;</h1>
         <div className="cards-con">
           <div className="neo-card-1">
-            <h3>This is Sample</h3>
+            <h3>Scalable Tech 💻</h3>
             <p>
-              Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch
-              ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
-              Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
+              Setting up the server and the routes using express. Fetching data
+              from an API using a Node.js call and displaying it to the
+              client-side
             </p>
           </div>
           <div className="neo-card-1">
-            <h3>This is Sample</h3>
+            <h3>Coding made Fun 🎉</h3>
             <p>
-              Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch
-              ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
-              Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
+              you get a bunch of random questions to practice on. While on the
+              right side, there is an editor to write your code on. Here, you
+              can select your preferred coding language from the dropdown list.
             </p>
           </div>
           <div className="neo-card-1">
-            <h3>This is Sample</h3>
+            <h3>Eye Loving UI 👀</h3>
             <p>
-              Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch
-              ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
-              Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
+              React.JS to design the website, canva to design our project
+              banner, figma to create slideshow for our project presentation
             </p>
           </div>
         </div>
         <div className="cards-con">
           <div className="neo-card-1">
-            <h3>This is Sample</h3>
+            <h3>Stay Connected 👩🏻‍🤝‍🧑🏼</h3>
             <p>
-              Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch
-              ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
-              Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
+              WebRTC-powered voice and video calling API from Twilio and spent
+              so much time reading through the given documentation from the
+              sponsors and watching speaker sessions to learn how to use it.
             </p>
           </div>
           <div className="neo-card-1">
-            <h3>This is Sample</h3>
+            <h3>Future Ready 🥳</h3>
             <p>
-              Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch
-              ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
-              Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
+              When the host starts the call/meeting, the platform will start to
+              save the live transcript and it allows any users who enter the
+              call late to be able to see the transcript of previous
+              conversation.
             </p>
           </div>
           <div className="neo-card-1">
-            <h3>This is Sample</h3>
+            <h3>Transcript's 📃</h3>
             <p>
-              Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch
-              ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
-              Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
+              Transcripts are excellent companions to notes. If people missed
+              any information, they can take a look at the transcript again
             </p>
           </div>
         </div>
@@ -189,19 +189,19 @@ const Home = () => {
           </div>
           <div className="problem-card-con-l">
             <div className="neo-card-1">
-              <h3>This is Sample</h3>
+              <h3>Peer Programing ✍</h3>
               <p>
-                Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch
-                ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch ahdbc hahadbc aahdcb
-                a Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
+                The pandemic has been a challenge for all of us and since we
+                didn’t get to meet our friends like the pre-covid days, we
+                devised new ways of keeping contact with them.
               </p>
             </div>
             <div className="neo-card-1">
-              <h3>This is Sample</h3>
+              <h3>All in One 💣</h3>
               <p>
-                Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch
-                ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch ahdbc hahadbc aahdcb
-                a Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
+                Our Code Editor has multiple languages support with DSA
+                questions tab inbuilt. So are an combination of
+                VideoRTC-CodeEditor-Classroom-Question-SPA
               </p>
             </div>
           </div>
@@ -209,7 +209,7 @@ const Home = () => {
         <div className="problem-card-con">
           <div className="problem-card-con-l">
             <div className="neo-card-1">
-              <h3>This is Sample</h3>
+              <h3>Pandamic </h3>
               <p>
                 Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch
                 ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch ahdbc hahadbc aahdcb
@@ -237,18 +237,17 @@ const Home = () => {
             <h3>Pranjal Goyal</h3>
             <img src="./images/pranjal.jpg"></img>
             <p>
-              Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch
-              ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
-              Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
+              I'm a Full Stack Developer with a passion for UI effects,
+              animations and creating intuitive user experiences with scalable
+              backend.
             </p>
           </div>
           <div className="neo-card-1">
             <h3>Kshitij Roodkee</h3>
             <img src="./images/kshitij.png"></img>
             <p>
-              Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch
-              ahdbc hahadbc aahdcb a Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
-              Lorem Gipsum hjdbch ahdbc hahadbc aahdcb a
+              I'm aspiring to become Full Stack Developer and python developer.
+              Want to make the world aesthetic and cool
             </p>
           </div>
         </div>
