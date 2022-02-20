@@ -1,0 +1,17 @@
+.login {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .login__logo {
+    object-fit: contain;
+    height: 10vh;
+    
+
+  }

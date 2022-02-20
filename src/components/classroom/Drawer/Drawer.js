@@ -10,6 +10,8 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
+
+
 import {Header} from '..';
 import { IconButton } from '@material-ui/core';
 import { Menu } from '@material-ui/icons';
@@ -79,7 +81,7 @@ export default function SwipeableTemporaryDrawer() {
                 <Menu/>
             </IconButton>
         </Header>
-          <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
+        
           <SwipeableDrawer
             anchor={anchor}
             open={state[anchor]}

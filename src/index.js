@@ -15,6 +15,7 @@ import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import config from './config';
 import {Home, Class, Coding} from './Pages/index'
 import { ContextProvider } from './context/context';
+import { Login } from './components/classroom';
 const basePath = config.appBasePath || "/";
 
 const VideoApp = () => {
@@ -57,6 +58,11 @@ ReactDOM.render(
                     </PrivateRoute>
                     <PrivateRoute exact path={`/coding`}>
                         <Coding/>
+                    </PrivateRoute>
+                    <PrivateRoute exact path={`/login`}>
+                    <ContextProvider>
+                     <Login/>
+                    </ContextProvider>,
                     </PrivateRoute>
                     
                     <Redirect to={basePath}/>
