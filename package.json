@@ -10,6 +10,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.26.0",
     "clsx": "^1.1.1",
     "concurrently": "^5.1.0",
     "d3-timer": "^1.0.10",
@@ -30,6 +31,8 @@
     "react-draggable": "^4.4.4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
+    "sequelize": "^6.16.2",
+    "sequelize-cockroachdb": "^6.0.5",
     "twilio": "^3.48.1",
     "twilio-video": "^2.7.1",
     "uuid": "^8.3.2"

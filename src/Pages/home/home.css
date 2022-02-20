@@ -199,12 +199,14 @@
 .home .features .tech-con {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .home .features .tech-con .neo-card-1 {
   width: 10%;
   border-radius: 50px;
   display: flex;
   padding: 0.7rem;
+  margin: 0.5rem 3rem;
   flex-direction: column;
   justify-content: center;
   background: linear-gradient(145deg, #222a2f, #293238);
@@ -212,6 +214,11 @@
 }
 .home .features .tech-con .neo-card-1 h3 {
   font-size: 1.2rem;
+}
+.home .features .tech-con .neo-card-1 a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 .home .features .tech-con .neo-card-1 img {
   width: 80%;
