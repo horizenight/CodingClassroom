@@ -32,32 +32,33 @@ const LoginClass =()=>{
 
     // we use to get data
     useEffect(() => {
-        if (loggedInMail) {
-          let unsubscribe = db
-            .collection("CreatedClasses")
-            .doc(loggedInMail)
-            .collection("classes")
-            .onSnapshot((snapshot) => {
-              setCreatedClasses(snapshot.docs.map((doc) => doc.data()));
-            });
-          return () => unsubscribe();
-        }
-      }, [loggedInMail]);
+      if (loggedInMail) {
+        let unsubscribe = db
+          .collection("CreatedClasses")
+          .doc(loggedInMail)
+          .collection("classes")
+          .onSnapshot((snapshot) => {
+            setCreatedClasses(snapshot.docs.map((doc) => doc.data()));
+          });
+        return () => unsubscribe();
+      }
+    }, [loggedInMail]);
 
-      useEffect(() => {
-        if (loggedInMail) {
-          let unsubscribe = db
-            .collection("JoinedClasses")
-            .doc(loggedInMail)
-            .collection("classes")
-            .onSnapshot((snapshot) => {
-              setJoinedClasses(snapshot.docs.map((doc) => doc.data().joinedData));
-            });
-    
-          return () => unsubscribe();
-        }
-      }, [loggedInMail]);
-    
+    console.log(createdClasses)
+  
+    useEffect(() => {
+      if (loggedInMail) {
+        let unsubscribe = db
+          .collection("JoinedClasses")
+          .doc(loggedInMail)
+          .collection("classes")
+          .onSnapshot((snapshot) => {
+            setJoinedClasses(snapshot.docs.map((doc) => doc.data().joinedData));
+          });
+  
+        return () => unsubscribe();
+      }
+    }, [loggedInMail]);
     
      
     return(
@@ -76,10 +77,10 @@ const LoginClass =()=>{
       </ProtectedRoute>
         <ol className="joined">
       {createdClasses.map((item)=>(
-          <JoinedClasses classData={item} />
+          <JoinedClasses key={item.id} classData={item} />
       ))}
       {joinedClasses.map((item)=>(
-          <JoinedClasses classData={item} />
+          <JoinedClasses key={item.id} classData={item} />
       ))}
       </ol>
       </>
