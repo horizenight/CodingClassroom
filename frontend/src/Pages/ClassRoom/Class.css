@@ -1,0 +1,27 @@
+.classroom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.classroom .main {
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 1rem;
+}
+.classroom .main form {
+  display: flex;
+  flex-direction: column;
+}
+.classroom .main form input {
+  background-color: transparent;
+  margin: 10px 0;
+  border: solid 1px white;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.classroom a {
+  text-decoration: underline;
+  color: white;
+}

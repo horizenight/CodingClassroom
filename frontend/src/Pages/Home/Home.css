@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;700;800;900&display=swap");
+:root {
+  --orange: #f7803c;
+  --black: #262f34;
+  --head-white: rgb(255, 255, 255);
+  --text-white: rgb(209, 209, 209);
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.home {
+  background-color: #262f34;
+  padding: 0 10%;
+  padding-top: 10%;
+}
+
+.home .header {
+  display: flex;
+}
+.home .header .header-text {
+  width: 60%;
+  margin: 2rem 0;
+  text-align: left;
+}
+.home .header .header-head {
+  font-size: 5rem;
+  font-weight: 700;
+}
+.home .header .header-desc {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-white);
+  margin: 1rem 0;
+}
+.home .header .header-img {
+  width: 700px;
+  margin: auto;
+}
+.home-heading-hollow {
+  font-size: 5rem;
+  font-weight: 500;
+  margin: 4rem 0;
+  text-align: left;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: 200ms;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.home-heading-hollow:hover {
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  transition: 200ms;
+  text-shadow: -1px -1px 5px white;
+}
+.home .features {
+  position: relative;
+  margin: 2rem 0;
+}
+.home .features .cards-con {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+.home .neo-card-1 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 1rem 0;
+  padding: 1.5rem 1rem;
+  border-radius: 50px;
+  text-align: center;
+  transition: 500ms;
+  background: linear-gradient(145deg, #222a2f, #293238);
+  box-shadow: 35px 35px 58px #1d2428, -35px -35px 58px #2f3a40;
+}
+.home .neo-card-1:hover {
+  border-radius: 50px;
+  background: linear-gradient(145deg, #293238, #222a2f);
+  box-shadow: 35px 35px 58px #1d2428, -35px -35px 58px #2f3a40;
+  transition: 500ms;
+}
+
+.home .neo-card-1 h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+.home .neo-card-1 p {
+  color: var(--text-white);
+  font-weight: 300;
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+.home .neo-card-1 img {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+.home .features .problem-card-con {
+  display: flex;
+  justify-content: space-between;
+}
+.home .features .problem-card-con .problem-img-con {
+  margin: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.home .features .problem-card-con .problem-img-con img {
+  width: 70%;
+}
+
+.home .features .problem-card-con .problem-card-con-l {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+.home .features .problem-card-con .problem-card-con-l .neo-card-1 {
+  width: 80%;
+}
+.home .features .dev-con {
+  display: flex;
+  justify-content: space-around;
+}
+.home .features .tech-con {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.home .features .tech-con .neo-card-1 {
+  width: 10%;
+  border-radius: 50px;
+  display: flex;
+  padding: 0.7rem;
+  margin: 0.5rem 3rem;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(145deg, #222a2f, #293238);
+  box-shadow: 35px 35px 34px #242c31, -35px -35px 34px #283237;
+}
+.home .features .tech-con .neo-card-1 h3 {
+  font-size: 1.2rem;
+}
+.home .features .tech-con .neo-card-1 a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.home .features .tech-con .neo-card-1 img {
+  width: 80%;
+  border-radius: 0%;
+  filter: grayscale(0.1);
+}
+.home .footer {
+  text-align: center;
+  margin: 1rem;
+}

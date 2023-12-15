@@ -1,0 +1,14 @@
+.coding-button {
+  border: 2px solid var(--orange);
+  border-radius: 15px;
+  padding: 0.5rem;
+  transition: 200ms;
+  background-color: transparent;
+  color: white;
+  margin: 0 0.5rem;
+}
+.coding-button:hover {
+  font-weight: 700;
+  background-color: var(--orange);
+  transition: 200ms;
+}

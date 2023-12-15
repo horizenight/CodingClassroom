@@ -1,0 +1,29 @@
+.video-main {
+  padding: 7% 5% 0;
+  text-align: center;
+}
+.video-heading {
+  font-size: 5rem;
+  font-weight: 500;
+  text-align: left;
+  padding: 1rem 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: 200ms;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+iframe {
+  padding: 2rem 0;
+}
+.video-heading:hover {
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  transition: 200ms;
+  text-shadow: -1px -1px 5px white;
+}
+.discription {
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.2;
+}
